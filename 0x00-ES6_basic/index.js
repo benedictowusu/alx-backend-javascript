@@ -1,5 +1,5 @@
-function greet(name) {
-  return "Hello, " + name + "!";
+function func1(a, b, c) {
+  console.log(arguments.length);
 }
 
-console.log(greet("Owusu"))
+console.log(func1("one", "two", 3, "4th"));
