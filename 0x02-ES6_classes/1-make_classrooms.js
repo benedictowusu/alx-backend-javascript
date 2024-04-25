@@ -1,6 +1,6 @@
 import ClassRoom from "./0-classroom.js";
 
-function initializeRooms() {
+export default function initializeRooms() {
   const rooms = [];
 
   // Create 3 ClassRoom objects with specified sizes
